@@ -130,7 +130,7 @@ export default function RentModal() {
       .post("/api/listings", data)
       .then(() => {
         toast.success("Listing created");
-        router.refresh();
+        router.push("/");
         reset();
         setStep(STEPS.CATEGORY);
         rentModal.onClose();

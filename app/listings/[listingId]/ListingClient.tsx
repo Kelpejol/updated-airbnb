@@ -119,7 +119,7 @@ export default function ListingClient({
             <div className="order-first mb-10 md:order-last md:col-span-3">
               <ListingReservation
                 price={listing.price}
-                totalPrice={listing.price}
+                totalPrice={totalPrice}
                 onchangeDate={(value) => setDateRange(value)}
                 dateRange={dateRange}
                 onSubmit={onCreateReservations}
