@@ -60,8 +60,8 @@ export default function UserMenu() {
                   onClick={() => router.push("/trips")}
                 />
                 <MenuItem
-                  label="My favorities"
-                  onClick={() => router.push("/favorities")}
+                  label="My favorites"
+                  onClick={() => router.push("/favorites")}
                 />
                 <MenuItem
                   label="My reservations"

@@ -17,7 +17,7 @@ export default function FavoriteClient({
   return (
     <Container>
       <Heading
-        title="Favorities"
+        title="Favorites"
         subtitle="List of places you have favorited!"
       />
       <div className="mt-10 sm:grid-cols-2 grid md:grid-cols-3 grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-8">
